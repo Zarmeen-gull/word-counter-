@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word counter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+
+
+
+            <div class="heading">
+                <h1>Word Counter</h1>
+                <p>Track word and character count, fix grammar, summarize text, extract keywords and more for any text
+                    with this advanced free tool.
+                </p>
+                
+
+
+
+            </div>
+
+            <!-- right-container**********************
+                ****************************************
+               ************************************** -->
+
+            <div id="myBody" class="first-container">
+
+                <div class="right-mian-container">
+                    <div class="text-box-container" wordCouter()>
+                        <textarea id="myArea" class="input-box">  </textarea>
+
+                        <div class="cut">X</div>
+                        <div class="add">+</div>
+                    </div>
+
+
+                    <div class="right-container2">
+
+
+                        <div class="c-btn2">
+                            <button id="btn1">Check Word</button>
+                            <button id="btn5">clone</button>
+                            <button id="btn4">Clear</button>
+                        </div>
+
+
+                        <div>
+                            <div class="c-btn1">
+                                <button id="btn2">Convert To Uppercase</button>
+                                <button id="btn3">Convert To LowerCase</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+                <!-- left-container**********************
+                ****************************************
+               ************************************** -->
+                <div class="main-left-container">
+                    <div class="left-container1">
+                        <div class="10-row">
+                            <div style=" padding: 16px 16px;">
+                                <p id="words">0</p>
+                                <p>words</p>
+                            </div>
+                            <div style=" padding: 16px 16px;">
+                                <p id="myChar">0</p>
+                                <p>Characters</p>
+                            </div>
+                            <div style=" padding: 16px 16px;">
+                                <p id="withOutSpace">0</p>
+                                <p>Characters without space</p>
+                            </div>
+                        </div>
+
+                        <div class="2-row">
+                            <div style=" padding: 16px 16px;">
+                                <p  id="slb">0</p>
+                                <p>Syllables</p>
+                            </div>
+                            <div style=" padding: 16px 16px;">
+                                <p id="stns">0</p>
+                                <p>Sentences</p>
+                            </div>
+                            <div style=" padding: 16px 16px;">
+                                <p id=" pgs">0</p>
+                                <p>Paragraphs</p>
+                            </div>
+                        </div>
+
+                        <div class="3-row">
+                            <div style=" padding: 16px 16px;">
+                                <p id="read">0</p>
+                                <p>Read</p>
+                            </div>
+                            <div style=" padding: 16px 16px;">
+                                <p id="speak">0</p>
+                                <p>  Speak</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="left-container2">
+                        <h1 id="h1">Top keywords</h1>
+                        <p id="p">Type or paste your text or URL to see the most used keywords</p>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+
+        <footer>
+        </footer>
+
+        <script src="./script.js"></script>
+        
+    </div>
+
+</body>
+
+</html>

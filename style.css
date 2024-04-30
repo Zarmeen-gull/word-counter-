@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(236, 228, 228);
+
+}
+
+.main-container {
+    width: 95%;
+    margin: auto;
+}
+
+
+/* headingss******************************************
+****************************************************
+********************************************* */
+
+.heading {
+    text-align: center;
+    font-size: 15px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* container work****************************************
+********************************************************
+*************************************************** */
+
+.first-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* right contaier*****************************
+***************************************
+************************************* */
+.right-mian-container {
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+
+}
+
+
+/* right side main container1***********
+************************************** */
+.text-box-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 25%;
+}
+
+#myArea {
+    /* position: fixed; */
+    size-adjust: fixed;
+    border: none;
+    outline: none;
+    padding: 15px;
+
+    
+}
+#myArea :hover {
+    border: none;
+    outline: none;
+}
+
+
+.cut {
+    position: absolute;
+    right: 19px;
+    top: 12px;
+}
+
+.add {
+    position: absolute;
+    top: 140px;
+    right: 19px;
+
+}
+
+#myArea {
+    width: 100%;
+    resize: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* right side main container2***********
+************************************** */
+
+
+
+
+/* buttons contaner******************** */
+.right-container2 {
+    margin-top: 20px;
+
+}
+
+.right-container2 button {
+    width: 80px;
+    height: 50px;
+    border-radius: 7px;
+    background: white;
+
+    margin: auto;
+    border: none;
+
+
+}
+
+
+
+
+/* buttons sub-contaner1******************** */
+.c-btn1 {
+    display: flex;
+    padding: 0 30px;
+    margin-top: 10px;
+}
+
+.c-btn1 button {
+    width: 190px;
+}
+
+
+
+
+
+/* buttons sub-contaner2******************** */
+.c-btn2 {
+    display: flex;
+    padding: 0 30px;
+}
+
+.c-btn2 button {
+    width: 190px;
+}
+
+
+/* left contaier*****************************
+***************************************
+************************************* */
+
+
+/* -left side main container***********
+************************************** */
+.main-left-container1 {
+    width: 30%;
+    height: 80vh;
+    margin: auto;
+    position: fixed;
+
+
+}
+
+
+/* LEFT SIDE first sub-container************
+**************************************** */
+
+.left-container1 {
+    display: flex;
+    border: 1px solid whitesmoke;
+    height: 40vh;
+    width: 90%;
+    margin: auto;
+
+
+
+}
+
+
+
+
+
+
+/* LEFT SIDE second sub-container************
+**************************************** */
+.left-container2 {
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    height: 40vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+#p {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mwdia quries**************************
+******************************************
+***************************************** */
+@media screen and (max-width: 700px) {
+    .first-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+
+    .left-container1 {
+        height: 20vh;
+    }
+
+    .left-container2 {
+        height: 20vh;
+    }
+    
+    .c-btn2 button {
+        width:70px;
+        margin-right: 5px;
+    }
+    .c-btn1 button {
+        width:70px;
+        margin-left: 5px;
+    }
+    
+    
+
+}
